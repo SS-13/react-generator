@@ -1,0 +1,13 @@
+node_modules/
+.storybook/
+.idea/
+dist/
+docs/
+config/
+tests/
+.eslintrc
+jest.config.js
+webpack.config.js
+postcss.config.js
+src/stories
+webpack/

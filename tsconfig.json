@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "jsx": "react",
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "allowSyntheticDefaultImports": true,
+        "incremental": true,
+        "outDir": "build/lib",
+        "target": "esnext",
+        "module": "esnext",
+        "lib": ["dom", "esnext"],
+        "sourceMap": true,
+        "importHelpers": true,
+        "declaration": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowJs": false,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "experimentalDecorators": true,
+        "rootDir": "",
+        "baseUrl": "src",
+        "paths": {
+            "@components/*": ["web/components/*"],
+            "@atoms/*": ["web/recoil/atoms/*"],
+            "@selectors/*": ["web/recoil/selectors/*"]
+        }
+    },
+    "include": ["src", "tests"],
+    "exclude": ["node_modules", "build", "scripts"]
+}

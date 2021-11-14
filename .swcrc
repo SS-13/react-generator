@@ -1,0 +1,5 @@
+{
+    "jsc": {
+        "parser": { "syntax": "typescript", "tsx": true, "dynamicImport": true }
+    }
+}
